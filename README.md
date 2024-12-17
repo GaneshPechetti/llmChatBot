@@ -53,7 +53,10 @@ pip install -r requirements.txt
 ### **3️⃣ Get the Cohere API Key 🔑**
 
 1. Visit [Cohere's website](https://cohere.ai/) to create an account and get an API key.  
-2. Save the API key securely — it will be required to run the chatbot.
+2. Save the API key securely into a `.env` file in the main directory like below — it will be required to run the chatbot.
+```bash
+COHERE_API_KEY=YOUR-API-KEY
+```
 
 ---
 
